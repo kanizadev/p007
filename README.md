@@ -2,9 +2,8 @@
 
 A beautiful, feature-rich multi-step registration form built with Flutter, featuring a modern sage green theme, smooth animations, and advanced functionality.
 
-![Flutter](https://img.shields.io/badge/Flutter-3.9.2+-02569B?logo=flutter)
-![Dart](https://img.shields.io/badge/Dart-3.9.2+-0175C2?logo=dart)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
 ## ✨ Features
 
@@ -56,58 +55,6 @@ A beautiful, feature-rich multi-step registration form built with Flutter, featu
 - Terms and conditions checkbox
 - Final review before submission
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Flutter SDK 3.9.2 or higher
-- Dart 3.9.2 or higher
-- Android Studio / VS Code / Android Studio with Flutter plugin
-- iOS development: Xcode (for macOS users)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/p007.git
-   cd p007
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Run the app**
-   ```bash
-   flutter run
-   ```
-
-### Build for Production
-
-**Android:**
-```bash
-flutter build apk --release
-```
-
-**iOS:**
-```bash
-flutter build ios --release
-```
-
-**Web:**
-```bash
-flutter build web
-```
-
-## 📦 Dependencies
-
-- `shared_preferences: ^2.3.2` - Local data persistence
-- `image_picker: ^1.1.2` - Image selection from gallery/camera
-- `path_provider: ^2.1.4` - File system paths
-- `smooth_page_indicator: ^1.2.0+3` - Animated page indicators
-- `share_plus: ^10.1.2` - Share functionality
-- `confetti: ^0.8.0` - Celebration animations
 
 ## 🎨 Theme
 
@@ -144,13 +91,6 @@ _Add screenshots of your app here_
    - Review the summary sheet
    - Confirm submission to see the celebration!
 
-## 🏗️ Project Structure
-
-```
-lib/
-├── main.dart          # App entry point and theme configuration
-└── form.dart          # Main form widget with all features
-```
 
 ## 🔒 Permissions
 
@@ -164,19 +104,6 @@ The app requires the following permissions:
 - `NSPhotoLibraryUsageDescription` - For accessing photo library
 - `NSCameraUsageDescription` - For taking photos
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👤 Author
 
@@ -211,20 +138,5 @@ The app calculates and displays your form completion percentage in real-time, sh
 ### Celebration
 On successful submission, enjoy a beautiful confetti animation with haptic feedback!
 
-## 🐛 Known Issues
-
-- Dropdown widgets use deprecated `value` parameter (functionality works correctly, will be updated in future Flutter versions)
-
-## 🔮 Future Enhancements
-
-- [ ] Form templates
-- [ ] Cloud sync
-- [ ] Multi-language support
-- [ ] Advanced form analytics
-- [ ] PDF export
-- [ ] Form versioning
-- [ ] Biometric authentication
-
----
 
 ⭐ If you like this project, please give it a star!
