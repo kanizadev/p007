@@ -66,7 +66,7 @@ The app features a beautiful **sage green** color scheme:
 
 ## 📱 Screenshots
 
-_Add screenshots of your app here_
+<img src="https://raw.githubusercontent.com/kanizadev/p007/refs/heads/main/image.png" hight=446 width=243 /> <img src="https://raw.githubusercontent.com/kanizadev/p007/refs/heads/main/image1.png" hight=446 width=243 /> <img src="https://raw.githubusercontent.com/kanizadev/p007/refs/heads/main/image2.png" hight=446 width=243 />
 
 ## 🔧 Usage
 
@@ -108,35 +108,13 @@ The app requires the following permissions:
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@kanizadev](https://github.com/kanizadev)
 
 ## 🙏 Acknowledgments
 
 - Flutter team for the amazing framework
 - All package contributors
 - Design inspiration from modern UI/UX practices
-
-## 📊 Features in Detail
-
-### Auto-Save
-Form data is automatically saved to local storage as you type, so you never lose your progress. Data is restored when you reopen the app.
-
-### Real-Time Validation
-- Email format validation
-- Phone number validation (supports Bangladesh +880 format)
-- Name validation (requires first and last name)
-- Debounced validation (500ms delay) for better performance
-
-### Progress Tracking
-The app calculates and displays your form completion percentage in real-time, showing a visual progress bar.
-
-### Export & Share
-- **Export JSON**: Export complete form data as formatted JSON
-- **Share**: Share a human-readable summary of your form data
-
-### Celebration
-On successful submission, enjoy a beautiful confetti animation with haptic feedback!
 
 
 ⭐ If you like this project, please give it a star!
